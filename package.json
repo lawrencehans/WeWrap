@@ -2,7 +2,7 @@
   "name": "wewrap-business-solution",
   "description": "WeWrap Expo private beta",
   "license": "0BSD",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "main": "index.js",
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",
@@ -10,6 +10,7 @@
     "expo-document-picker": "~57.0.3",
     "expo-file-system": "~57.0.7",
     "expo-image-picker": "~57.0.20",
+    "expo-print": "~57.0.1",
     "expo-sharing": "~57.0.22",
     "expo-status-bar": "~57.0.1",
     "react": "19.2.3",
@@ -20,6 +21,7 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "test": "node --test --test-isolation=none tests/*.test.mjs"
   }
 }

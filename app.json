@@ -4,7 +4,7 @@
     "name": "WeWrap Business Solution",
     "slug": "wewrap-business-solution",
     "userInterfaceStyle": "dark",
-    "version": "0.3.0",
+    "version": "0.5.0",
     "plugins": [
       [
         "expo-image-picker",
@@ -19,14 +19,8 @@
     "orientation": "portrait",
     "android": {
       "package": "com.wewrap.businesssolution",
-      "permissions": [
-        "android.permission.RECORD_AUDIO"
-      ]
+      "icon": "./assets/wewrap-app-icon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "97e634f2-9acc-4a12-9576-8943ccff833c"
-      }
-    }
+    "icon": "./assets/wewrap-app-icon.png"
   }
 }
