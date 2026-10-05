@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "owner": "labdevcpt24",
+    "name": "WeWrap Business Solution",
+    "slug": "wewrap-business-solution",
+    "userInterfaceStyle": "dark",
+    "version": "0.3.0",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Photograph a vehicle for your wrap concept.",
+          "photosPermission": "Choose a vehicle photo for your wrap concept."
+        }
+      ],
+      "expo-document-picker",
+      "expo-sharing"
+    ],
+    "orientation": "portrait",
+    "android": {
+      "package": "com.wewrap.businesssolution",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "97e634f2-9acc-4a12-9576-8943ccff833c"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+.expo/
+dist/
+.env
+.env.*
+*.keystore
+*.jks
+credentials.json
+wewrap-backup*.json
+wewrap-feedback*.json
